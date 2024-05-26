@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@layer base {
+    html {
+      font-family: "Proxima Nova", system-ui, sans-serif;
+    }
+  } */
+
+@layer base {
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 100;
+    src: url(../fonts/proxima-nova/ProximaNova-Thin.woff) format('woff');
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 300;
+    src: url(../fonts/proxima-nova/ProximaNova-Light.woff) format('woff');
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    src: url(../fonts/proxima-nova/ProximaNova-Regular.woff) format('woff');
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    src: url(../fonts/proxima-nova/ProximaNova-Semibold.woff) format('woff');
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 800;
+    src: url(../fonts/proxima-nova/ProximaNova-Extrabld.woff) format('woff');
+  }
+  @font-face {
+    font-family: "Proxima Nova";
+    font-weight: 900;
+    src: url(../fonts/proxima-nova/ProximaNova-Black.woff) format('woff');
+  }
+  html {
+    font-family: "Proxima Nova", sans-serif, Intro;
+  }
+}
